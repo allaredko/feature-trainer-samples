@@ -1,1 +1,1 @@
-print('Hello!' '\n' 'Press double Shift')
+print('Hello!' '\n' 'Press Ctrl + Shift + A')

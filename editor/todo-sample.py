@@ -10,14 +10,17 @@ class Car:
 
     def accelerate(self):
         self.speed += 5
+        # TODO add more code to accelerate
 
     def brake(self):
+        # TODO add more code to brake
         if self.speed < 5:
             self.speed = 0
         else:
             self.speed -= 5
 
     def step(self):
+        # TODO
         self.odometer += self.speed
         self.time += 1
 
